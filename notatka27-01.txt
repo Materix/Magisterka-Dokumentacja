@@ -1,0 +1,48 @@
+﻿Pytania:
+- Robimy własne nowe wtyczki czy edytujemy stare?
+- Kiedy przepinamy na najnowszego LINKa (w związku z Java 8)?
+- Czy sekwencje? -> jak czas
+- Czy domknięte?
+- Algorytmy generowania transakcji
+- Czy grafowe? (GSpan, CloseGraph (http://www.sciencedirect.com/science/article/pii/S1877050915004664))
+- zdefiniowane
+
+Inne podejścia (wsponmieć  w teoretycznym rozdziale -> 10 stron)
+- Centralność (degree, closeness, betwenness, eigenvector (https://en.wikipedia.org/wiki/Centrality))
+- Szukanie samotników (outlier)
+- Klastrowanie (Klasyfikacja)
+
+Wnioski:
+- Model do przepisania
+- Algorytmy:
+  - Wzorce:             PrePost+ (póki co PrePost)
+  - Domknięte wzorce:   FPClose
+  - Sekwencje:          PrefixSpan
+  - Domknięte sekwence: CMClaSP
+  
+  
+  wzorce -> domknięte (zrobione)
+  zdefiniowane (konkretny)
+  sekwencje -> domnkniete 
+  grafy
+  
+ --- Teza: Użyteczność algorytmów wyszukiwania wzorców w analizie finansowej i billingowej
+ 
+ 
+ Overleaf -> latex sharowany
+ iisg -> wskazówki do pisania pracy
+
+backtraking -> wzorce zdefiniowane na podstawie timeline (założona kolejność) -> zbadać jak można się pozbyc założenia kolejności
+
+automat dobierania wsparcia 
+
+im gęściej są wykonywane przelewy tym przelew będzie w większej ilości transakcji (algorytmy generowania transakcji)
+
+2. Wprowadzenie do tematy (przegląd dziedziny) -> jakie są algorytmy (przegląd algorytmów (każdy po dwa-trzy zdania, wybrane do implementacji - szczegółowo (z pseudokodem))), jakie są pojęcia, jakie są problemy (10 stron) (dużo cytatów), podobne rozwiaznaia (paterntrcer, mamut etc.) -> bierzemy się za to
+3. Koncepcja rozwiązania -> (nie implementacji), sposoby, założenia, (automat dobierania wsparcia), 
+4. Wybrane aspkety implemenracji -> klasy, modele, architektura (link)
+5. Ekprerymenty -> poprawność (czy wyniki są zgodne), wydajność, skalowalność
+
+strona iisg -> szablon
+
+-----TEZA: Narzędzia wyszukiwania wzorców będą użyteczne dla analityka policyjnego
